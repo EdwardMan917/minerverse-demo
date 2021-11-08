@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("/src/assets/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/src/assets/fonts/Gotham-Medium.otf");
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("/src/assets/fonts/Gotham-Light.otf");
+}
+
+html {
+  z-index: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+body {
+  z-index: 0;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background: url("/src/assets/images/bg-star.png") repeat;
+}
+
+#root {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gotham";
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes sildeUp{
+  0% { transform: translateY(0px); }
+ 100% { transform: translateY(-150px); }
+}
+
+@keyframes slideRight{
+  0% { transform: translateX(0px); }
+ 100% { transform: translateX(200px); }
+}
+
+@keyframes slideLeft {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-200px); }
+}
+
+@keyframes leftToRight {
+  0% { left: -200px; }
+  100% { left: 100%; }
+}
+
+@keyframes upAndDown {
+  0% { transform: translateY(-20px); }
+  100% { transform: translateY(40px); }
+}
+
+.animateUp {
+  animation-name: sildeUp;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.animateRight {
+  animation-name: slideRight;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.animateLeft {
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.flyPass {
+  animation: 
+    leftToRight 20s normal infinite linear,
+    upAndDown 2s alternate infinite linear;    
+}
+
