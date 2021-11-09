@@ -9,6 +9,8 @@ import Car from "../../assets/images/car.png";
 
 import AboutSatellite from "../../assets/images/satellite-about.png";
 
+import AuditStone from "../../assets/images/stone-audited.png";
+
 import ListedBigStone from "../../assets/images/stone-listed-1.png";
 import ListedStones from "../../assets/images/stone-listed-2.png";
 import ListedSatellite from "../../assets/images/satellite-listed.png";
@@ -169,4 +171,13 @@ export const StyledAboutSatellite = styled.div`
   background: url(${AboutSatellite}) no-repeat;
   background-size: contain;
   transform: translateX(750px) translateY(200px) rotate(50deg);
+`;
+
+export const StyledAuditedStone = styled.div`
+  width: 265px;
+  height: 143px;
+  position: absolute;
+  background: url(${AuditStone}) no-repeat;
+  background-size: contain;
+  transform: translateX(400px) translateY(-220px);
 `;
