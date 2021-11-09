@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/minerverse-demo/static/css/main.cdb090e0.chunk.css",
-    "main.js": "/minerverse-demo/static/js/main.26e01b49.chunk.js",
-    "main.js.map": "/minerverse-demo/static/js/main.26e01b49.chunk.js.map",
+    "main.css": "/minerverse-demo/static/css/main.156440e5.chunk.css",
+    "main.js": "/minerverse-demo/static/js/main.c90ec638.chunk.js",
+    "main.js.map": "/minerverse-demo/static/js/main.c90ec638.chunk.js.map",
     "runtime-main.js": "/minerverse-demo/static/js/runtime-main.86e4bb7e.js",
     "runtime-main.js.map": "/minerverse-demo/static/js/runtime-main.86e4bb7e.js.map",
     "static/js/2.3e5a534f.chunk.js": "/minerverse-demo/static/js/2.3e5a534f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f14584eb.chunk.js": "/minerverse-demo/static/js/3.f14584eb.chunk.js",
     "static/js/3.f14584eb.chunk.js.map": "/minerverse-demo/static/js/3.f14584eb.chunk.js.map",
     "index.html": "/minerverse-demo/index.html",
-    "static/css/main.cdb090e0.chunk.css.map": "/minerverse-demo/static/css/main.cdb090e0.chunk.css.map",
+    "static/css/main.156440e5.chunk.css.map": "/minerverse-demo/static/css/main.156440e5.chunk.css.map",
     "static/js/2.3e5a534f.chunk.js.LICENSE.txt": "/minerverse-demo/static/js/2.3e5a534f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/minerverse-demo/static/media/bg-star.9716c7a6.png",
     "static/media/aggregator.853aab56.svg": "/minerverse-demo/static/media/aggregator.853aab56.svg",
@@ -29,11 +29,14 @@
     "static/media/moon.818c9570.png": "/minerverse-demo/static/media/moon.818c9570.png",
     "static/media/nft-finance.8e9b25bb.svg": "/minerverse-demo/static/media/nft-finance.8e9b25bb.svg",
     "static/media/optimizer.f037c8f7.svg": "/minerverse-demo/static/media/optimizer.f037c8f7.svg",
+    "static/media/satellite-about.ec7cb972.png": "/minerverse-demo/static/media/satellite-about.ec7cb972.png",
     "static/media/satellite-listed.1df2f225.png": "/minerverse-demo/static/media/satellite-listed.1df2f225.png",
     "static/media/stone-1.b468f5af.png": "/minerverse-demo/static/media/stone-1.b468f5af.png",
     "static/media/stone-2.a326806f.png": "/minerverse-demo/static/media/stone-2.a326806f.png",
     "static/media/stone-3.6fb1a02c.png": "/minerverse-demo/static/media/stone-3.6fb1a02c.png",
     "static/media/stone-listed-1.7682cea2.png": "/minerverse-demo/static/media/stone-listed-1.7682cea2.png",
+    "static/media/stone-mobile-about-3.a55b5374.png": "/minerverse-demo/static/media/stone-mobile-about-3.a55b5374.png",
+    "static/media/stone-mobile-audited-1.e49455b8.png": "/minerverse-demo/static/media/stone-mobile-audited-1.e49455b8.png",
     "static/media/telegram.e80d9466.svg": "/minerverse-demo/static/media/telegram.e80d9466.svg",
     "static/media/token-pocket.c8d35cc5.svg": "/minerverse-demo/static/media/token-pocket.c8d35cc5.svg",
     "static/media/twitter.9cdc8eb4.svg": "/minerverse-demo/static/media/twitter.9cdc8eb4.svg",
@@ -42,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.86e4bb7e.js",
     "static/js/2.3e5a534f.chunk.js",
-    "static/css/main.cdb090e0.chunk.css",
-    "static/js/main.26e01b49.chunk.js"
+    "static/css/main.156440e5.chunk.css",
+    "static/js/main.c90ec638.chunk.js"
   ]
 }
