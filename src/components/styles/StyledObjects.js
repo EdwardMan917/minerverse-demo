@@ -7,6 +7,8 @@ import UFO from "../../assets/images/ufo-3.png";
 import Capsule from "../../assets/images/capsule.png";
 import Car from "../../assets/images/car.png";
 
+import AboutSatellite from "../../assets/images/satellite-about.png";
+
 import ListedBigStone from "../../assets/images/stone-listed-1.png";
 import ListedStones from "../../assets/images/stone-listed-2.png";
 import ListedSatellite from "../../assets/images/satellite-listed.png";
@@ -158,4 +160,13 @@ export const StyledRadiationSecond = styled(Radiation)`
 export const StyledRadiationThird = styled(Radiation)`
   top: calc(40% - 10px);
   right: -25px;
+`;
+
+export const StyledAboutSatellite = styled.div`
+  width: 321px;
+  height: 360px;
+  position: absolute;
+  background: url(${AboutSatellite}) no-repeat;
+  background-size: contain;
+  transform: translateX(750px) translateY(200px) rotate(50deg);
 `;
