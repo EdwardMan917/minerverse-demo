@@ -1,12 +1,15 @@
 import React from "react";
 import { StyledBoardContainer, StyledBoardTitle, StyledBoard, StyledTextContainer } from "./styles/StyledBoard";
 import { StyledKeyword } from "./styles/StyledKeyword";
+import { MobileAboutStone, MobileAboutStones } from "./styles/StyledMobileObjects";
 import { StyledAboutSatellite } from "./styles/StyledObjects";
 
 function AboutBoard() {
   return (
     <StyledBoardContainer>
       <StyledBoardTitle>
+        <MobileAboutStone />
+        <MobileAboutStones />
         About 
         <StyledKeyword> Minerverse </StyledKeyword>
       </StyledBoardTitle>

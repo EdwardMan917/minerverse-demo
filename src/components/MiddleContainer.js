@@ -8,6 +8,7 @@ import AuditBoard from "./AuditBoard";
 import ListedBoard from "./ListedBoard";
 import Separator from "./Separator";
 import Share from "./Share";
+import { MobileListedSatellite } from "./styles/StyledMobileObjects";
 
 
 function MiddleContainer() {
@@ -20,6 +21,7 @@ function MiddleContainer() {
       <AuditBoard />
       <Separator />
       <ListedBoard />
+      <MobileListedSatellite />
       <Separator />
       <Share />
     </StyledMiddleContainer>

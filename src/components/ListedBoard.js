@@ -1,10 +1,7 @@
 import React from "react";
-import { StyledBoardContainer, StyledBoardTitle, StyledBoard, StyledSvgContainer, StyledSvgWrapper } from "./styles/StyledBoard";
-import { ReactComponent as CoinMarketCapIcon } from "../assets/images/svgs/coin-market-cap.svg";
-import { ReactComponent as CoinGeckoIcon } from "../assets/images/svgs/coin-gecko.svg";
-import { ReactComponent as DAppIcon } from "../assets/images/svgs/dapp.svg";
-import { ReactComponent as DAppRadarIcon } from "../assets/images/svgs/dapp-radar.svg";
-import { ReactComponent as TokenPocketIcon } from "../assets/images/svgs/token-pocket.svg";
+import { StyledBoardContainer, StyledBoardTitle, StyledBoard, StyledSvgContainer } from "./styles/StyledBoard";
+import { CoinGecko, CoinMarketCap, DApp, DAppRadar, TokenPocket } from "./styles/StyledIcons";
+import { MobileListedStone, MobileListedStoneThree, MobileListedStoneTwo } from "./styles/StyledMobileObjects";
 import { StyledListedBigStone, StyledListedSatellite, StyledListedStones } from "./styles/StyledObjects";
 
 function ListedBoard() {
@@ -18,27 +15,14 @@ function ListedBoard() {
         <StyledListedStones />
         <StyledListedSatellite />
         <StyledSvgContainer>
-
-          <StyledSvgWrapper>
-            <CoinMarketCapIcon/>
-          </StyledSvgWrapper>
-
-          <StyledSvgWrapper>
-            <CoinGeckoIcon/>
-          </StyledSvgWrapper>
-
-          <StyledSvgWrapper>
-            <TokenPocketIcon/>
-          </StyledSvgWrapper>
-
-          <StyledSvgWrapper>
-            <DAppRadarIcon/>
-          </StyledSvgWrapper>
-
-          <StyledSvgWrapper>
-            <DAppIcon/>
-          </StyledSvgWrapper>
-
+          <MobileListedStone />
+          <MobileListedStoneTwo />
+          <MobileListedStoneThree />
+          <CoinMarketCap />
+          <DAppRadar />
+          <TokenPocket />
+          <CoinGecko />
+          <DApp />
         </StyledSvgContainer>
       </StyledBoard>
     </StyledBoardContainer>

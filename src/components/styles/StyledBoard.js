@@ -1,6 +1,14 @@
 import styled from "styled-components";
 
 export const StyledBoardTitle = styled.div`
+
+  @media (max-width: 800px){
+    width: auto;
+    border-width: 2px;
+    font-size: 25px;
+    height: 40px;
+  }
+
   white-space: pre-wrap;
   z-index: 2;
   padding: 1rem;
@@ -22,6 +30,12 @@ export const StyledBoardTitle = styled.div`
 `;
 
 export const StyledBoard = styled.div`
+
+  @media (max-width: 800px){
+    min-height: 350px;
+    border-radius: 17px;
+  }
+
   z-index: 1;
   width: 100%;
   min-height: 450px;
@@ -39,12 +53,22 @@ export const StyledBoard = styled.div`
 `;
 
 export const StyledSvgWrapper = styled.div`
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
   height: 110px;
   min-width: 40%;
   margin: 2% 3% 2% 3%;
 `;
 
 export const StyledSvgContainer = styled.div`
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
   z-index: 999;
   padding-top: 8%;
   height: 70%;
@@ -58,6 +82,22 @@ export const StyledSvgContainer = styled.div`
 `;
 
 export const StyledTextContainer = styled.div`
+
+  @media (max-width: 470px){
+    width: auto;
+    font-size: 18px;
+    line-height: 2;
+    margin: -8% 5% 0 5%;
+  }
+
+  @media (min-width: 471px) and (max-width: 800px){
+    width: auto;
+    font-size: 18px;
+    line-height: 2;
+    margin: -15% 5% 0 5%;
+  }
+
+
   margin: -10% 5% 0 5%;
   text-align: center;
   font-family: "GothamLight";
@@ -67,6 +107,11 @@ export const StyledTextContainer = styled.div`
 `;
 
 export const StyledBoardContainer = styled.div`
+  
+  @media (max-width: 800px){
+    min-height: 350px;
+  }
+
   padding-top: 5%;
   min-height: 450px;
   width: 100%;

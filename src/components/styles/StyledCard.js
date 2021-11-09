@@ -34,6 +34,13 @@ export const StyledCardContent = styled.div`
 `;
 
 export const StyledCard = styled.div`
+
+  @media (max-width: 800px) {
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5% 2% 5% 2%;
+  }
+
   z-index: 2;
   width: 30%;
   border-style: solid;
@@ -47,6 +54,12 @@ export const StyledCard = styled.div`
 `;
 
 export const StyledCardContainer = styled.div`
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   z-index: 2;
   width: 100%;
   display: inline-flex;

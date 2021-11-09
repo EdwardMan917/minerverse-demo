@@ -15,6 +15,12 @@ import ListedBigStone from "../../assets/images/stone-listed-1.png";
 import ListedStones from "../../assets/images/stone-listed-2.png";
 import ListedSatellite from "../../assets/images/satellite-listed.png";
 
+const object = styled.div`
+  @media (max-width: 800px){
+    display: none;
+  }
+`;
+
 
 export const StyledMoon = styled.div`
   z-index: 1;
@@ -47,15 +53,25 @@ const UFOSlide = keyframes`
 `;
 
 export const StyledLightUFO = styled.div`
+
+  @media (max-width: 500px) {
+    width: 150px;
+    height: 150px;
+    top: 1%;
+    right: 5%;
+    background-size: contain;
+  }
+
   z-index: 1;
   top: 0;
   right: 0;
   height: 300px;
   width: 300px;
-  background-position-y: 80% !important;
-  background-position-x: 50% !important;
+  background-position-y: 80%;
+  background-position-x: 50%;
   position: absolute;
-  background: url(${LightUFO}) no-repeat;
+  background-repeat: no-repeat;
+  background-image: url(${LightUFO});
   animation-name: ${UFOSlide};
   animation-duration: 3s;
   animation-timing-function: linear;
@@ -87,6 +103,13 @@ export const StyledUFO = styled.div`
 `;
 
 export const StyledCapsule = styled.div`
+
+  @media (max-width: 800px){
+    transform: scale(0.6);
+    transform-origin: bottom left;
+    left: 80px;
+  }
+
   height: 210px;
   width: 180px;
   bottom: -2px;
@@ -97,6 +120,13 @@ export const StyledCapsule = styled.div`
 `;
 
 export const StyledCar = styled.div`
+
+  @media (max-width: 800px){
+    transform: scale(0.6);
+    transform-origin: bottom right;
+    right: 10%;
+  }
+
   height: 110px;
   width: 111px;
   bottom: -2px;
@@ -106,7 +136,7 @@ export const StyledCar = styled.div`
   position: absolute;
 `;
 
-export const StyledListedBigStone = styled.div`
+export const StyledListedBigStone = styled(object)`
   height: 256px;
   width: 314px;
   top: -210px;
@@ -117,7 +147,7 @@ export const StyledListedBigStone = styled.div`
   position: absolute;
 `;
 
-export const StyledListedStones = styled.div`
+export const StyledListedStones = styled(object)`
   height: 170px;
   width: 185px;
   bottom: -10px;
@@ -128,7 +158,7 @@ export const StyledListedStones = styled.div`
   position: absolute;
 `;
 
-export const StyledListedSatellite = styled.div`
+export const StyledListedSatellite = styled(object)`
   height: 317px;
   width: 328px;
   bottom: -20px;
@@ -173,7 +203,7 @@ export const StyledAboutSatellite = styled.div`
   transform: translateX(750px) translateY(200px) rotate(50deg);
 `;
 
-export const StyledAuditedStone = styled.div`
+export const StyledAuditedStone = styled(object)`
   width: 265px;
   height: 143px;
   position: absolute;

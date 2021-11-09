@@ -4,6 +4,7 @@ import { StyledKeyword } from "./styles/StyledKeyword";
 import { ReactComponent as OptimzerIcon} from "../assets/images/svgs/optimizer.svg";
 import { ReactComponent as FinanceIcon } from "../assets/images/svgs/nft-finance.svg";
 import { ReactComponent as AggregatorIcon } from "../assets/images/svgs/aggregator.svg";
+import { MobileAggregatorStone } from "./styles/StyledMobileObjects";
 
 
 function AboutCards(){
@@ -35,6 +36,7 @@ function AboutCards(){
 
       <StyledCard>
         <StyledCardTitle>
+          <MobileAggregatorStone />
           <StyledKeyword>Aggregator</StyledKeyword>
         </StyledCardTitle>
         <StyledCardIcon>

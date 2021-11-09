@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const StyledShareTitle = styled.div`
+
+  @media (max-width: 800px) {
+    margin: 150px 0 3% 0;
+    font-size: 25px;
+  }
+
   margin: 400px 0 3% 0;
   height: 60px;
   width: 100%;
@@ -26,6 +32,11 @@ export const StyledIconContainer = styled.div`
 `;
 
 export const StyledEnding = styled.div`
+
+  @media (max-width: 800px) {
+    font-size: 20px;
+  }
+
   margin: 110px 0 200px 0;
   width: 100%;
   height: 300px;
