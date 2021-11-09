@@ -50,7 +50,7 @@ export const MobileAggregatorStone = styled(MobileObject)`
   @media (max-width: 800px) {
     width: 150px;
     height: 150px;
-    transform: translateX(-10px) translateY(-80px);
+    transform: translateX(-40px) translateY(-90px);
     background-image: url(${AggregatorStone});
     position: absolute;
   }
@@ -100,8 +100,7 @@ export const MobileListedStoneThree = styled(MobileObject)`
   @media (max-width: 800px) {
     width: 100px;
     height: 100px;
-    float: left;
-    transform: rotate(25deg) translateY(200px);
+    transform: rotate(25deg) translateX(260px) translateY(200px);
     background-image: url(${ListedStoneThree});
     position: absolute;
   }
@@ -112,7 +111,7 @@ export const MobileListedSatellite = styled(MobileObject)`
     z-index: 1;
     width: 150px;
     height: 150px;
-    transform: translateX(100px) translateY(50px);
+    transform: translateX(100px) translateY(45px);
     background-image: url(${ListedSatellite});
     position: absolute;
   }
