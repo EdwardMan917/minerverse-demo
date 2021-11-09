@@ -3,19 +3,18 @@ import { StyledIntro, StyledIntroContent, StyledIntroTitle } from "./styles/Styl
 import { StyledKeyword } from "./styles/StyledKeyword";
 
 
-function Intro() {
-  return (
-    <StyledIntro>
-      <StyledIntroTitle>
-        An entire 
-        <StyledKeyword> Minerverse </StyledKeyword>
-        is working in your favour.
-      </StyledIntroTitle>
-      <StyledIntroContent>
-        An everlasting ecosystem that gather Social Investment, NFT Finance and Cross-Chain Asset Management.
-      </StyledIntroContent>
-    </StyledIntro>
-  )
-}
+const Intro = React.forwardRef((props, ref) => (
+  <StyledIntro ref={ref} >
+    <StyledIntroTitle>
+      An entire 
+      <StyledKeyword> Minerverse </StyledKeyword>
+      is working in your favour.
+    </StyledIntroTitle>
+    <StyledIntroContent>
+      An everlasting ecosystem that gather Social Investment, NFT Finance and Cross-Chain Asset Management.
+    </StyledIntroContent>
+  </StyledIntro>
+  
+));
 
 export default Intro;
