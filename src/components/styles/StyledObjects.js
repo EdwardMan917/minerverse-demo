@@ -23,6 +23,11 @@ export const StyledMoon = styled.div`
 `;
 
 export const StyledEarth = styled.div`
+
+  @media only screen and (min-width: 1500px) {
+    bottom:  1000px;
+  }
+
   z-index: 1;
   height: 1100px;
   width: 500px;
@@ -49,6 +54,7 @@ export const StyledLightUFO = styled.div`
   background: url(${LightUFO}) no-repeat;
   animation-name: ${UFOSlide};
   animation-duration: 3s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 `;
@@ -71,6 +77,7 @@ export const StyledUFO = styled.div`
   background: url(${UFO}) no-repeat;
   animation-name: ${UFOSlide};
   animation-duration: 3s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 `;
@@ -125,4 +132,30 @@ export const StyledListedSatellite = styled.div`
   background: url(${ListedSatellite}) no-repeat;
   background-size: contain;
   position: absolute;
+`;
+
+const Radiation = styled.div`
+  position: absolute;
+  right: 0px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  height: 10vw;
+  width: 10vw;
+  opacity: 0;
+  transform: translateX(50%) translateY(-40%);
+`;
+
+export const StyledRadiationFirst = styled(Radiation)`
+  top: 40%;
+  right: -50px;
+`;
+
+export const StyledRadiationSecond = styled(Radiation)`
+  top: calc(40% - 5px);
+  right: -50px;
+`;
+
+export const StyledRadiationThird = styled(Radiation)`
+  top: calc(40% - 10px);
+  right: -25px;
 `;

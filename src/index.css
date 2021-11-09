@@ -74,6 +74,13 @@ code {
   100% { transform: translateY(40px); }
 }
 
+@keyframes radiation {
+  0% { width: 10vw; height: 10vw; opacity: 0; }
+  10% { opacity: 0.6; }
+  75% { opacity: 0.8; }
+  100% { width: 150vw; height: 150vw; opacity: 0; }
+}
+
 .animateUp {
   animation-name: sildeUp;
   animation-duration: 2s;
@@ -98,4 +105,23 @@ code {
     leftToRight 20s normal infinite linear,
     upAndDown 2s alternate infinite linear;    
 }
+
+.radiateFirst {
+  transform-origin: center;
+  animation: radiation 30s normal infinite linear;
+}
+
+.radiateSecond {
+  transform-origin: center;
+  animation: radiation 30s normal infinite linear;
+  animation-delay: 10s;
+}
+
+.radiateThird {
+  transform-origin: center;
+  animation: radiation 30s normal infinite linear;
+  animation-delay: 20s;
+}
+
+
 

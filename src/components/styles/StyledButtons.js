@@ -16,6 +16,7 @@ export const StyledIntroButton = styled.button`
     background: #e1db00;
   }
 
+  user-select: none;
   font-family: "Gotham";
   font-size: 23px;
   border-radius: 4px;
