@@ -1,6 +1,8 @@
 import React, { useRef }  from "react";
 import { StyledStonesBack, StyledStonesMiddle, StyledStonesFront } from './styles/StyleStones';
-import { StyledMoon, StyledLightUFO, StyledEarth, StyledUFO } from "./styles/StyledObjects";
+import { StyledMoon, StyledLightUFO, StyledEarth, 
+  StyledUFO, StyledRadiationFirst, StyledRadiationSecond, 
+  StyledRadiationThird } from "./styles/StyledObjects";
 import { StyledBackground } from "./styles/StyledBackground";
 import Footer from "./Footer";
 
@@ -29,6 +31,9 @@ function Background() {
       <StyledStonesFront ref={FrontStoneRef} />
       <StyledMoon ref={MoonRef} />
       <StyledLightUFO/>
+      <StyledRadiationFirst className={ "radiateFirst" } />
+      <StyledRadiationSecond className={ "radiateSecond" } />
+      <StyledRadiationThird className={ "radiateThird" } />
       <StyledEarth />
       <StyledUFO />
       <Footer />
